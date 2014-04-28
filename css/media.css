@@ -1,0 +1,24 @@
+@media all and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  * {
+    -webkit-text-size-adjust: 110%;
+    font-weight: 300;
+    color: #434445;;
+  }
+
+  a {
+    font-weight: 400;
+  }
+
+.central {
+  width: 700px;
+}
+
+  #logo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-image: url(../img/logo@2x.png);
+    background-size: 278px 95px;
+  }
+}
